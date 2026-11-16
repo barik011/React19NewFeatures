@@ -1,17 +1,27 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import {Greeting} from './Greeting'
+import { UserWrap } from "./UserWrap";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h1>React 19 New Features</h1>
+      {/* <Greeting name="Barique" message="Hellow" />
+      <Greeting name="Adeen" />
+      <Greeting message="Welcome" />
+      <Greeting />
+      <Greeting name="Barique" message="Hellow" >
+        <h2>This the children Page content</h2>
+        <h2>This the Paragraph Page content</h2>
+      </Greeting> */}
+      <UserWrap  id={22} age={42}   name={"Barik"}
+    address={"Purnea"}
+    mobile={9898989898} />
+
     </>
   )
 }
 
 export default App
+
