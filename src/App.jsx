@@ -2,6 +2,13 @@ import {Greeting} from './Greeting'
 import { UserWrap } from "./UserWrap";
 import './App.css'
 import { UserDetails } from './Userdetails';
+import {ProductList} from  './ProductList'
+import { Alert } from './Alert';
+import { Button } from './Button';
+import { CustomButton } from './CustomButton';
+import { ContactUs } from './ContactUs';
+import { Subscribe } from './Subscribe';
+import { MenuList } from './MenuList';
 
 function App() {
 
@@ -22,8 +29,22 @@ function App() {
 
     {/* <UserDetails name="Brouce" isOnline={true} isPremium={true}/>
     <UserDetails name="Mark" isOnline={false} isNewUser={true} isPremium={true}/> */}
-
-    
+    {/* <ProductList /> */}
+      {/* <Alert type='success'>
+        Data Successful updated!
+      </Alert>
+      <Alert type='error'>
+        Somthing Wrong in your code!
+      </Alert>
+      <Alert >
+        Somthing Wrong in your code!
+      </Alert> */}
+      {/* <Button>My Button</Button> */}
+      {/* <CustomButton name='Submit'></CustomButton>
+      <CustomButton name='Cancel'></CustomButton> */}
+      {/* <ContactUs/>
+      <Subscribe /> */}
+      <MenuList />
 
     </>
   )

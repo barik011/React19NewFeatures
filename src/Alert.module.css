@@ -1,0 +1,13 @@
+.alert {
+        color:black;
+        padding:16px;
+        margin-bottom:20px;
+        border-radius:8px;
+        background-color:#f4f4f4;
+}
+.success {
+        background-color: #4CAF50;
+}
+.error {
+        background-color: #ee0000;
+}
