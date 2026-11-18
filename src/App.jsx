@@ -9,6 +9,7 @@ import { CustomButton } from './CustomButton';
 import { ContactUs } from './ContactUs';
 import { Subscribe } from './Subscribe';
 import { MenuList } from './MenuList';
+import { Count } from './Count';
 
 function App() {
 
@@ -44,7 +45,8 @@ function App() {
       <CustomButton name='Cancel'></CustomButton> */}
       {/* <ContactUs/>
       <Subscribe /> */}
-      <MenuList />
+      {/* <MenuList /> */}
+      <Count />
 
     </>
   )
